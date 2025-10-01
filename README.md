@@ -1,5 +1,5 @@
 # Roblox FPS Unlocker for Mac
-# Be careful as there's a chance this may get you banned as Roblox has just added security for fast-flags
+# Be careful as there's a chance this may get you banned as Roblox has just added restrictions for fast-flags. I'm not responsible for any bans you receive in the game this is a simple file modification.
 # dm @omaw for any problems
 
 Install:
