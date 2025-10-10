@@ -21,7 +21,9 @@ cat > "$IXP_FILE" <<EOL
     "DFIntTaskSchedulerTargetFps": "9999",
     "FFlagGameBasicSettingsFramerateCap5": "True",
     "FFlagDebugGraphicsDisableMetal": "True",
-    "FFlagDebugGraphicsPreferVulkan": "False"
+    "FFlagDebugGraphicsPreferVulkan": "False",
+    "FFlagDebugSkyGray": "True",
+    "FFlagDebugDisplayFPS": "True"
 }
 EOL
 
