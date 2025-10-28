@@ -19,6 +19,8 @@ cat > "$IXP_FILE" <<EOL
 {
     "DFIntTaskSchedulerTargetFps": "69420",
     "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntNetworkPrediction": "120",
+    "DFIntServerTickRate": "60",
     "FFlagDebugGraphicsPreferOpenGL": "True",
     "FFlagDebugGraphicsPreferVulkan": "True",
     "FFlagDebugGraphicsPreferD3D11": "True",
@@ -26,9 +28,6 @@ cat > "$IXP_FILE" <<EOL
     "FIntRenderShadowIntensity": "0",
     "FIntRenderGrassHeightScaler": "0",
     "FFlagDisablePostFx": "True",
-    "DFIntTaskSchedulerTargetFps": "9999",
-    "FFlagGameBasicSettingsFramerateCap5": "True",
-    "FFlagDebugGraphicsDisableMetal": "True",
     "FFlagDebugSkyGray": "True",
     "FFlagDebugDisplayFPS": "True"
 }
