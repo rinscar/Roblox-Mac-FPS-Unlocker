@@ -17,17 +17,17 @@ fi
 
 cat > "$IXP_FILE" <<EOL
 {
-    "DFIntTaskSchedulerTargetFps": 120,
-    "FFlagTaskSchedulerLimitTargetFpsTo2402": true,
-    "FFlagDebugGraphicsPreferMetal": true,
-    "FFlagDebugGraphicsPreferOpenGL": false,
-    "FFlagDebugGraphicsPreferVulkan": false,
-    "DFIntMaxFrameBufferSize": 2,
-    "FIntRenderShadowIntensity": 0,
-    "FIntRenderGrassHeightScaler": 0,
-    "FFlagDisablePostFx": true,
-    "FFlagDebugSkyGray": false,
-    "FFlagDebugDisplayFPS": true
+    "DFIntTaskSchedulerTargetFps": "69420",
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "FFlagDebugGraphicsPreferOpenGL": "True",
+    "FFlagDebugGraphicsPreferVulkan": "True",
+    "FFlagDebugGraphicsPreferD3D11": "True",
+    "DFIntMaxFrameBufferSize": "3",
+    "FIntRenderShadowIntensity": "0",
+    "FIntRenderGrassHeightScaler": "0",
+    "FFlagDisablePostFx": "True",
+    "FFlagDebugSkyGray": "True",
+    "FFlagDebugDisplayFPS": "True"
 }
 EOL
 
