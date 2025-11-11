@@ -17,7 +17,7 @@ fi
 
 cat > "$IXP_FILE" <<EOL
 {
-    "DFIntTaskSchedulerTargetFps": "69420",
+    "DFIntTaskSchedulerTargetFps": "200",
     "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
     "FFlagDebugGraphicsPreferOpenGL": "True",
     "FFlagDebugGraphicsPreferVulkan": "True",
