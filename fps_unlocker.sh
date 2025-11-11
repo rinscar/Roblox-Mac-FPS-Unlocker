@@ -28,6 +28,8 @@ EOL
 
 chflags uchg "$IXP_FILE"
 
-[ -f "$XML_FILE" ] && sed -i '' 's/\(<int name="FramerateCap" value="\)[^"]*"/\1240"/' "$XML_FILE"
+if [ -f "$XML_FILE" ]; then
+    sed -i '' '/FramerateCap/c\<int name="FramerateCap" value="240"/>' "$XML_FILE"
+fi
 
 echo "Roblox FPS unlocked and smoothed to 240 FPS!"
