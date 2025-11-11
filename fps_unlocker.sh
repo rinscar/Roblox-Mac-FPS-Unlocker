@@ -17,7 +17,7 @@ fi
 
 cat > "$IXP_FILE" <<EOL
 {
-    "DFIntTaskSchedulerTargetFps": "69420",
+    "DFIntTaskSchedulerTargetFps": "240",  # You can change to 300 if you want
     "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
     "FFlagDebugGraphicsPreferOpenGL": "True",
     "FFlagDebugGraphicsPreferVulkan": "True",
@@ -27,7 +27,8 @@ cat > "$IXP_FILE" <<EOL
     "FIntRenderGrassHeightScaler": "0",
     "FFlagDisablePostFx": "True",
     "FFlagDebugSkyGray": "True",
-    "FFlagDebugDisplayFPS": "True"
+    "FFlagDebugDisplayFPS": "True",
+    "EnableVSync": false
 }
 EOL
 
